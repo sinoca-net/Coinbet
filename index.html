@@ -15,11 +15,11 @@
   t.src=v;s=b.getElementsByTagName(e)[0];
   s.parentNode.insertBefore(t,s)}(window, document,'script',
   'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '4279423499000488');
+  fbq('init', '963554573397474');
   fbq('track', 'PageView');
   </script>
   <noscript><img height="1" width="1" style="display:none"
-  src="https://www.facebook.com/tr?id=4279423499000488&ev=PageView&noscript=1"
+  src="https://www.facebook.com/tr?id=963554573397474&ev=PageView&noscript=1"
   /></noscript>
   <!-- End Meta Pixel Code -->
 
@@ -46,10 +46,9 @@
       color: var(--white);
       font-family: 'Barlow', sans-serif;
       overflow-x: hidden;
-      padding-bottom: 90px; /* espacio para sticky CTA */
+      padding-bottom: 90px;
     }
 
-    /* ── PARTÍCULAS ── */
     .particles { position: absolute; inset: 0; pointer-events: none; overflow: hidden; }
     .particle {
       position: absolute; width: 4px; height: 4px;
@@ -73,7 +72,6 @@
       100% { bottom: 100%; opacity: 0; transform: translateX(20px) scale(0.5); }
     }
 
-    /* ── HERO ── */
     .hero {
       position: relative;
       min-height: 100svh;
@@ -94,7 +92,6 @@
       pointer-events: none;
     }
 
-    /* ── BADGE LIVE ── */
     .badge-live {
       display: inline-flex;
       align-items: center;
@@ -122,7 +119,6 @@
       50%       { opacity: 0.5; transform: scale(0.7); }
     }
 
-    /* ── SOCIAL PROOF ── */
     .social-proof {
       display: inline-flex;
       align-items: center;
@@ -139,7 +135,6 @@
     }
     .social-proof .fire { font-size: 14px; }
 
-    /* ── LOGO ── */
     .hero-logo {
       font-family: 'Bebas Neue', sans-serif;
       font-size: clamp(72px, 24vw, 130px);
@@ -161,7 +156,6 @@
       animation: fade-in 0.6s ease 0.2s both;
     }
 
-    /* ── URGENCY BAR ── */
     .urgency-bar {
       display: flex;
       align-items: center;
@@ -187,7 +181,6 @@
       color: #fff;
     }
 
-    /* ── BONO CARD ── */
     .bono-card {
       background: linear-gradient(135deg, #001A08 0%, #002510 50%, #001706 100%);
       border: 1.5px solid var(--green);
@@ -256,7 +249,6 @@
       50%       { transform: translateY(-6px) rotate(5deg); }
     }
 
-    /* ── CTA BUTTON ── */
     .cta-btn {
       display: flex;
       align-items: center;
@@ -306,7 +298,6 @@
       animation: fade-in 0.6s ease 0.5s both;
     }
 
-    /* ── FEATURES ── */
     .features {
       padding: 36px 20px 24px;
       max-width: 480px;
@@ -345,7 +336,6 @@
       margin-top: 2px;
     }
 
-    /* ── TESTIMONIOS ── */
     .testimonios {
       padding: 0 20px 28px;
       max-width: 480px;
@@ -394,7 +384,6 @@
       line-height: 1.5;
     }
 
-    /* ── PLATFORM BADGE ── */
     .platform-badge {
       display: flex;
       align-items: center;
@@ -426,7 +415,6 @@
       letter-spacing: 1px;
     }
 
-    /* ── PAYMENTS ── */
     .payments {
       padding: 0 20px 28px;
       max-width: 480px;
@@ -458,7 +446,6 @@
       color: rgba(255,255,255,0.7);
     }
 
-    /* ── STICKY CTA ── */
     .sticky-cta {
       position: fixed;
       bottom: 0; left: 0; right: 0;
@@ -476,7 +463,6 @@
       padding: 16px 24px;
     }
 
-    /* ── FOOTER ── */
     footer {
       text-align: center;
       padding: 16px 20px 24px;
@@ -490,13 +476,11 @@
       to   { opacity: 1; transform: translateY(0); }
     }
 
-    /* WhatsApp icon SVG inline */
     .wa-icon { width: 22px; height: 22px; flex-shrink: 0; fill: currentColor; }
   </style>
 </head>
 <body>
 
-  <!-- ═══ HERO ═══ -->
   <section class="hero">
     <div class="particles">
       <div class="particle"></div><div class="particle"></div>
@@ -519,14 +503,12 @@
     <h1 class="hero-logo">COINBET</h1>
     <p class="hero-sub">Duplicá tu primer depósito</p>
 
-    <!-- Urgency bar -->
     <div class="urgency-bar">
       <span class="timer-icon">⏳</span>
       <span>Oferta activa por</span>
       <span id="countdown">23:47:12</span>
     </div>
 
-    <!-- Bono card -->
     <div class="bono-card">
       <span class="bono-emoji">🍀</span>
       <div class="bono-label">Beneficio de bienvenida</div>
@@ -545,7 +527,6 @@
     <p class="cta-sub">✅ Sin costo · Registro en minutos · Bono inmediato</p>
   </section>
 
-  <!-- ═══ FEATURES ═══ -->
   <section class="features">
     <h2 class="features-title">¿Por qué Coinbet?</h2>
     <div class="feature-list">
@@ -580,7 +561,6 @@
     </div>
   </section>
 
-  <!-- ═══ TESTIMONIOS ═══ -->
   <section class="testimonios">
     <p class="testimonios-title">Lo que dicen nuestros jugadores</p>
     <div class="testimonios-list">
@@ -617,7 +597,6 @@
     </div>
   </section>
 
-  <!-- ═══ PLATFORM ═══ -->
   <div class="platform-badge">
     <div class="platform-inner">
       <span class="platform-label">Plataforma</span>
@@ -625,7 +604,6 @@
     </div>
   </div>
 
-  <!-- ═══ PAGOS ═══ -->
   <section class="payments">
     <div class="payments-title">Métodos de pago</div>
     <div class="payment-logos">
@@ -641,7 +619,6 @@
     +18 · Jugá responsablemente
   </footer>
 
-  <!-- ═══ STICKY CTA ═══ -->
   <div class="sticky-cta">
     <a href="#" class="cta-btn" id="cta-sticky" onclick="trackContactar()" target="_blank" rel="noopener">
       <svg class="wa-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -652,20 +629,16 @@
   </div>
 
   <script>
-    // ── CONFIG ──
     const WA_NUMBER  = '5492243496244';
     const WA_MESSAGE = encodeURIComponent('Hola, quiero registrarme en Coinbet y activar mi beneficio de bienvenida 🎁');
     const WA_URL     = `https://wa.me/${WA_NUMBER}?text=${WA_MESSAGE}`;
 
-    // Asignar URL a todos los botones
     document.querySelectorAll('.cta-btn').forEach(btn => { btn.href = WA_URL; });
 
-    // ── TRACKING ──
     function trackContactar() {
       if (typeof fbq !== 'undefined') fbq('trackCustom', 'ClickWhatsApp');
     }
 
-    // Scroll depth
     let scrollTracked = false;
     window.addEventListener('scroll', function () {
       if (!scrollTracked) {
@@ -677,25 +650,20 @@
       }
     }, { passive: true });
 
-    // Touch feedback
     document.querySelectorAll('.cta-btn').forEach(btn => {
       btn.addEventListener('touchstart', () => { btn.style.transform = 'scale(0.97)'; }, { passive: true });
       btn.addEventListener('touchend',   () => { btn.style.transform = ''; },          { passive: true });
     });
 
-    // ── CONTADOR DE REGISTROS ──
-    // Arranca en un número verosímil y sube de a 1 cada tanto
     let registros = 58 + Math.floor(Math.random() * 10);
     document.getElementById('registros-hoy').textContent = registros;
     setInterval(() => {
-      if (Math.random() < 0.3) { // 30% de chance cada 30s
+      if (Math.random() < 0.3) {
         registros++;
         document.getElementById('registros-hoy').textContent = registros;
       }
     }, 30000);
 
-    // ── COUNTDOWN ──
-    // Genera un tiempo aleatorio entre 1h y 4h para que parezca activo
     let totalSeconds = (1 * 3600) + Math.floor(Math.random() * 3 * 3600);
     function updateCountdown() {
       const h = Math.floor(totalSeconds / 3600);
@@ -708,7 +676,6 @@
     updateCountdown();
     setInterval(updateCountdown, 1000);
 
-    // ── OCULTAR STICKY CUANDO EL HERO CTA ES VISIBLE ──
     const heroCta  = document.getElementById('cta-hero');
     const stickyCta = document.querySelector('.sticky-cta');
     const observer = new IntersectionObserver(entries => {
